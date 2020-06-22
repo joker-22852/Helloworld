@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerview.RecyclerViewActivity"
+    android:orientation="vertical">
+ <Button
+     android:id="@+id/linear"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="列表视图"/>
+ <Button
+     android:id="@+id/horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="水平滚动"/>
+ <Button
+     android:id="@+id/grid_view"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="网格视图"/>
+ <Button
+     android:id="@+id/falls_view"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="瀑布流"/>
+</LinearLayout>
